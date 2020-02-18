@@ -5,10 +5,6 @@ class Question extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
-      questionText,
-      style: TextStyle(fontSize: 28),
-      textAlign: TextAlign.center,
-    );
+    return Text(questionText);
   } //Build Widget
 } // Question class

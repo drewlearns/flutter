@@ -8,7 +8,7 @@ class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     // TODO: implement createState
-    return MyAppState();
+    return _MyAppState();
   } //createState
 } //MyApp
 
@@ -35,10 +35,9 @@ class _MyAppState extends State<MyApp> {
           title: Text('My First App'),
         ), //AppBar
         body: Column(
-          children: /*<Widget>*/ [
+          children: [
             Question(
               questions[_questionIndex],
-              // questions[0],
             ),
             RaisedButton(
               child: Text('Answer 1'),
