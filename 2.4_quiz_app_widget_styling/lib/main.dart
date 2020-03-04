@@ -13,8 +13,7 @@ class MyApp extends StatefulWidget {
 } //MyApp
 
 class _MyAppState extends State<MyApp> {
-  var _questionIndex =
-      0; //could use int instead of var but dart infers and this is a better practice
+  var _questionIndex = 0; //could use int instead of var but dart infers and this is a better practice
 
   void _answerQuestion() {
     setState(() {
